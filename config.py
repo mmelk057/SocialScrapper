@@ -44,7 +44,7 @@ class SocialPlatform:
     __tld: str
 
     def __init__(self, scheme: str, subdomains: List[str],
-            host: str, tld: str):
+                 host: str, tld: str):
         self.__scheme = scheme
         self.__subdomains = subdomains
         self.__host = host
@@ -52,7 +52,7 @@ class SocialPlatform:
 
     def getScheme(self) -> str:
         return self.__scheme
-    
+
     def getSubdomains(self) -> List[str]:
         return self.__subdomains
 
